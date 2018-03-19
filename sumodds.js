@@ -1,6 +1,6 @@
 // Prints the sum of all odd integers in an array.
 
-const sumOdds = (array) => {
+function sumOdds (array) {
     let sum_odd = 0;
     let x = 0;
     while (x < array.length) {
