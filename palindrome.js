@@ -5,10 +5,10 @@
 // +1 and y by -1 until x reaches the end of the string - if any differences are detected, the 'palindrome' variable
 // (which defaults to 'true') changes in value to 'false', indicating the word isn't a palindrome. 
 
-word = "tattarrattat"
-x = 0 
-y = (word.length - 1)
-palindrome = true
+let word = "tattarrattat"
+let x = 0 
+let y = (word.length - 1)
+let palindrome = true
 
 while (x < word.length) { 
     if (word[x] !== word[y]){
