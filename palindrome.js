@@ -1,6 +1,6 @@
 //Function takes in a word and returns 'true' or 'false' if the word is a palindrome - if it is the same both forwards and backwards. 
 
-const isPalindrome = (word) => {
+function isPalindrome (word) {
     let x = 0; //indexes word from front->back
     let y = (word.length - 1); //indexes word from back->front
     
