@@ -9,12 +9,27 @@ function factorial (num) {
         return "Hmm... try a positive number next time.";
     };
         
-    let sum = 1;
+    let fact = 1;
     while (num > 0) {
-        sum*=num;
+        fact*=num;
         num-=1;
     }
-    return sum;
+    return fact;
+}
+
+// FOR LOOP VERSION
+function factorial (num) {
+    if (num === 0) {
+        return 1; 
+    } else if (num < 0) {
+        return 'Error'
+    }
+    
+    let fact = 1;
+    for (num; num >= 1; num--) {
+        fact*=num;
+    }
+    return fact;
 }
     
 //Below, test cases for the above factorial function. All print 'true'. 
